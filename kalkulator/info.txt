@@ -1,0 +1,49 @@
+cwiczeania:
+===========
+- KLATKA: wyciskanie sztangi na lawce plaskiej
+- KLATKA: wyciskanie sztangi na lawce skosnej
+- KLATKA: wyciskanie hantli na lawce plaskiej
+- BICEPS: sztanga lamana 
+- BICEPS: hantle siedzac rotacja zewnetrzna
+- PLECY: podciaganie na drazku
+- PLECY: pilowanie hantlami
+- PLECY: sciaganie raczek do klatki
+- PLECY: martwy ciag
+- TRICEPS: francuskie lezac
+- TRICEPS: hantle jednoracz
+- TRICEPS: sciaganie linek
+- NOGI: przysiady sztanga z przodu
+- NOGI: suwnica
+- NOGI: wykroki z hantlami
+- NOGI: lydki wznosy stojac
+- NOGI: lydki suwnica
+- BARKI: wyciskanie sztangi siedzac z przodu
+- BARKI: unoszenie hantli bokiem
+- BARKI: unoszenie hantli w opadzie
+
+
+
+
+jedzenie:
+=========
+- filet z piersi kurczaka
+- filet z piersi indyka
+- tunczyk w sosie wlasnym
+- poledwica z kurczaka
+- ryz basmanti
+- kasza gryczana
+- makaron spaghetti lubella
+- pomidory
+- ogorek
+- brokul
+- salata lodowa
+- cebula
+- czosnek
+- maslo
+- oliwa z oliwek
+- olej lniany
+- olej rzepakowy
+- jajka
+- platki owsiane
+- sos pomidorowy
+- chleb zytni
