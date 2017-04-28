@@ -1,0 +1,13 @@
+git checkout -b fix commit [powstanie branch od danego commita]
+
+git merge --squash branch
+git commit
+[po git merge beda wszystkie zmiany widoczne w repo a po squashu sie splaszczy i tylko ostatnia]
+
+
+git reset --hard nrrewizji 
+git push -f
+
+
+git add -i [interaktyne dodawania do sledzenia]
+
