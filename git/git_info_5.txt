@@ -1,1 +1,27 @@
+########
+#  5.2
+########
 
+# gdy zmiany na jakims pliku beda wykonane to przed git add sprawdzimy czy sa nadmiarowe spacje
+git diff --check
+
+# nie robic duzych zmian tylko kazdy commit ot odrebny zestaw zmian !!! 
+
+# przechowania doczytac w rozdziale 6
+# git add --patch
+
+# wyswietlenie kommitow kotre byly mergami lub nie
+git log --merges
+git log --no-meges
+
+# wypuchanie zmian
+git push
+
+# pobranie wszystkich zmian ale nie scalane sa zmiany automatycznie trzeba to zrobic recznie
+git fetch 
+
+# pobranie zmian i proba automatycznego scalenia zmian
+git pull
+
+
+# obczaic git log --no-merges origin/master ^issue54

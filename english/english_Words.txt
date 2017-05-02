@@ -28,4 +28,5 @@ sigh -
 over here - 
 get over here - 
 these - 
-endless - 
+endless -
+trailing whitespace - 
