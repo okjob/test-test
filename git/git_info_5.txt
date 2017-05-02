@@ -25,3 +25,13 @@ git pull
 
 
 # obczaic git log --no-merges origin/master ^issue54
+
+# doczytac w 5.2 od prywatne zarzadzane zespoly
+
+########
+#  5.3
+########
+
+# przeczytac caly rozdzial
+
+

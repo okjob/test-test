@@ -1,0 +1,15 @@
+########
+#  6.1
+########
+
+# dla commita pokazuje log i roznice wskazanej rewizji
+git show - ostatnia rewizja
+git show numer_rewzji - numer nie musi byc pelny wystarczy unikalna liczba sha-1
+
+# pokazanie roznice wprowadzane z kazda rewizja, liczba okresla ile rewizji wstecz   
+git log -p -2
+
+# jesli chcemy unikalne sha-1
+git log --abrev-commit - poda unikalne sha-1
+
+# odniesienie do galezi do czytania
