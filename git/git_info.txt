@@ -18,4 +18,7 @@ git log --no-merges
 --no-merges don't print commits with more than one parent
 
 
-git fetch push pull
+git fetch push pull ??????
+
+
+
