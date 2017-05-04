@@ -12,4 +12,10 @@ git log -p -2
 # jesli chcemy unikalne sha-1
 git log --abrev-commit - poda unikalne sha-1
 
-# odniesienie do galezi do czytania
+# ????
+git rev-parse
+
+# Reflog  -informacje o tym jak wygladaly odwolania HEADa i innych galezi
+git reflog
+
+
