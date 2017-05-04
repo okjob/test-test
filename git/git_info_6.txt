@@ -46,7 +46,7 @@ HEAD~3^2 drugi rodzic pierwszego rodzica dziadka :)
 # zakres zmian
 # .. zmiany osiagalne z pierwszego commita a nie z drugiego
 git log branch1..branch2 wszystkie zmiany dostepne w branch2 ktore nie sa dostepne przez branch1
-git log origin/,aster..HEAD co zamierzasz wypchnac do zdalnego repozytorium, pokaze wszystkie zmiany z mojej obecnej galezi ktorych nie mam w zdalnej galezi master w repozytorium
+git log origin/master..HEAD co zamierzasz wypchnac do zdalnego repozytorium, pokaze wszystkie zmiany z mojej obecnej galezi ktorych nie mam w zdalnej galezi master w repozytorium
 
 # sprawdzenie zmian w obojetnie ktorej galezi ale nie w galezi w ktorej sie obecnie znajdujesz (znak ^ i --not oznacza ze nie chcesz zmian widziec) ponizsze komendy rownoznaczne
 git log refA..refB 
