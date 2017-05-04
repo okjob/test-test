@@ -18,4 +18,46 @@ git rev-parse
 # Reflog  -informacje o tym jak wygladaly odwolania HEADa i innych galezi
 git reflog
 
+# wyswietlenie refloga w formacie podobnym do polecenia git log
+git log -g
+git log -g master
+git log -g --oneline
 
+# aby zobaczyc zawartosc HEADa sprzed 5 zmian lub jakis czas temu
+git show HEAD@{5}
+git show HEAD@{2.months.ago}
+
+
+# jak wygladala dana galaz jakis czas temu
+git show master@{yesterday}
+
+# wskazanie przodka - gdy na koncu umiesimy znak ^ git rozwinie to do rodzica tego commita
+# gdy dodamy liczbe oznacza drugi rodzic (pierwszy galaz na ktorej bykes podczas laczenia zmian a drugi to zmiana w galezi ktora laczylem)
+git show HEAD^
+git show d921970^
+git show d453567^2
+
+# HEAD^=HEAD~ 
+# roznica pojawia sie jak dodamy liczbe
+HEAD~2 oznacza pierwszy rodzic pierwszego rodzica
+HEAD^^^ pierwszy rodzic, pierwszego rodzica, pierwszego rodzica
+HEAD~3^2 drugi rodzic pierwszego rodzica dziadka :)
+
+# zakres zmian
+# .. zmiany osiagalne z pierwszego commita a nie z drugiego
+git log branch1..branch2 wszystkie zmiany dostepne w branch2 ktore nie sa dostepne przez branch1
+git log origin/,aster..HEAD co zamierzasz wypchnac do zdalnego repozytorium, pokaze wszystkie zmiany z mojej obecnej galezi ktorych nie mam w zdalnej galezi master w repozytorium
+
+# sprawdzenie zmian w obojetnie ktorej galezi ale nie w galezi w ktorej sie obecnie znajdujesz (znak ^ i --not oznacza ze nie chcesz zmian widziec) ponizsze komendy rownoznaczne
+git log refA..refB 
+git log ^refA refB
+git log refB --not refA
+
+# mozna wskazac wiecej niz jedna referencje
+git log refA refB ^refC
+git log refA refB --not refC
+
+# ... wskazuje wszystkie zmiany dostepne z jednej z dwoch ale nie z obu
+git log branch1...branch2
+
+git log --left-right b1...b2 widac po ktorej stronie kazda zmiana wystepuje
