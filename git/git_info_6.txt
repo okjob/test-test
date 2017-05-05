@@ -61,3 +61,19 @@ git log refA refB --not refC
 git log branch1...branch2
 
 git log --left-right b1...b2 widac po ktorej stronie kazda zmiana wystepuje
+
+########
+#  6.2
+########
+
+# interaktywana przchowalnia (cyfry lub litery)
+git add -i
+
+# bez wywolywania interaktywnej przechowalni z opcja patch mozna jak ponizej (spr cos edit nie dziala)
+git add -p 
+
+# zapis w drugiej lini z @ oznacza od ktorej lini zmiany i pierwsza wartosc ile bylo na poczatku a druga po zmianach
+# pocwiczyc bo cos nie tak z tym jest
+
+# przypomnienie !!!
+git diff --cached
