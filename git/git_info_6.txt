@@ -80,3 +80,8 @@ jak chcemy zeby nie bylo dodawane wstamiany # przed
 
 # przypomnienie !!!
 git diff --cached
+
+########
+# 6.3
+########
+
