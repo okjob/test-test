@@ -74,6 +74,9 @@ git add -p
 
 # zapis w drugiej lini z @ oznacza od ktorej lini zmiany i pierwsza wartosc ile bylo na poczatku a druga po zmianach
 # pocwiczyc bo cos nie tak z tym jest
++ - oznaczaja ktore dodane a ktore znikna 
+jak chcemy zachoac usuwamy -
+jak chcemy zeby nie bylo dodawane wstamiany # przed
 
 # przypomnienie !!!
 git diff --cached
